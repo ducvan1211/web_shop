@@ -1,0 +1,22 @@
+.product__container {
+    padding-top: 20px;
+}
+.product__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+.product__item {
+    width: calc(20%);
+}
+.product__soft {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 10px;
+    #product__arrange,
+    #product__filter {
+        width: 20%;
+        margin-left: 10px;
+    }
+}

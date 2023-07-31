@@ -1,0 +1,168 @@
+.pay__content {
+    padding: 20px 0px 75px;
+    .pay__header {
+        position: relative;
+        display: block;
+        color: #272727;
+        text-transform: uppercase;
+        line-height: normal;
+        padding-bottom: 15px;
+        margin-bottom: 40px;
+        border-bottom: 1px solid #ccc;
+        text-align: left;
+        font-family: "Roboto Regular";
+        font-weight: normal;
+        h3 {
+            font-size: 21px;
+        }
+        &::before {
+            position: absolute;
+            left: 0;
+            bottom: -1px;
+            width: 150px;
+            height: 2px;
+            content: "";
+            background-color: #bf2424;
+        }
+    }
+    .customer__form {
+        .form-group {
+            input.form-control,
+            select.form-control {
+                margin: 10px 0px;
+            }
+        }
+    }
+    .cart__info {
+        table {
+            width: 100%;
+            text-align: left;
+            thead {
+                tr {
+                    border-bottom: 1px solid #ddd;
+                    td {
+                        text-transform: uppercase;
+                        padding-bottom: 15px;
+                        text-transform: uppercase;
+                        font-family: "Roboto Medium";
+                        &:nth-child(2) {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        padding: 15px 0px;
+                        border-bottom: 1px solid #ddd;
+                        display: table-cell;
+                        vertical-align: middle;
+                        &:nth-child(2) {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+            tfoot {
+                tr {
+                    td {
+                        padding: 15px 0px;
+                        text-transform: uppercase;
+                        font-family: "Roboto Medium";
+                        font-weight: normal;
+                        &:nth-child(2) {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+        #payment_methods {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-top: 25px;
+            li {
+                display: flex;
+                align-items: center;
+                padding-bottom: 10px;
+                label {
+                    margin-left: 10px;
+                }
+            }
+        }
+        .place__order {
+            margin-top: 20px;
+            text-align: right;
+            .btn__order {
+                display: inline-block;
+                padding: 10px 40px;
+                text-transform: uppercase;
+                border-radius: 3px;
+                font-family: "Roboto Medium";
+                font-weight: normal;
+                border: none;
+                outline: none;
+                background: #3f5da6;
+                color: #fff;
+            }
+        }
+    }
+}
+.order__container {
+    .order__title {
+        padding-top: 20px;
+        h1 {
+            font-weight: 700;
+            font-size: 30px;
+            font-family: "Montserrat", sans-serif;
+        }
+        p {
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #333;
+            line-height: 24px;
+        }
+    }
+    .order__code {
+        font-weight: 700;
+        margin: 0 0 10px;
+        font-size: 18px;
+    }
+    .order__title {
+        padding-top: 20px;
+        h1 {
+            font-weight: 700;
+            font-size: 30px;
+            font-family: "Montserrat", sans-serif;
+        }
+        p {
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #333;
+            line-height: 24px;
+        }
+    }
+    .order__code {
+        font-weight: 700;
+        margin: 0 0 10px;
+        font-size: 18px;
+    }
+    table {
+        tfoot {
+            tr {
+                td {
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    table tr td {
+        vertical-align: middle;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,30 @@
+.support {
+    padding-top: 20px;
+    .support__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .support__item {
+            width: 18%;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 10px;
+            h3 {
+                font-size: 16px;
+                line-height: normal;
+                margin-bottom: 5px;
+            }
+            p {
+                font-size: 13px;
+                font-family: "Roboto Light";
+                color: #8e8e8e;
+                line-height: normal;
+                margin: 0;
+            }
+        }
+    }
+}
+.banner {
+    padding-top: 20px;
+}

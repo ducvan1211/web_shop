@@ -1,0 +1,21 @@
+.breadcrumb__container {
+    padding-top: 20px;
+
+    .breadcrumb {
+        margin: 0;
+        background-color: #fff;
+        box-shadow: 0 4px 6px #00000029;
+
+        padding: 10px 10px;
+        border-radius: 10px;
+        a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .breadcrumb-item.active a {
+            color: #f12a43;
+        }
+    }
+}

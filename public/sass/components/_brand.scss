@@ -1,0 +1,32 @@
+.brand {
+    padding-top: 20px;
+    .brand__list {
+        display: flex;
+        flex-wrap: wrap;
+        .brand__item {
+            display: block;
+            width: calc(12% - 10px);
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            margin-right: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.5s;
+            text-decoration: none;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+            &:hover {
+                border: 1px solid;
+            }
+            &.active {
+                border: 1px solid;
+            }
+        }
+    }
+}

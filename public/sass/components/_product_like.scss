@@ -1,0 +1,107 @@
+.product__carousel {
+    margin-left: -5px;
+    margin-right: -5px;
+
+    .slick-arrow {
+        position: absolute;
+        &::before {
+            font-size: 40px;
+            color: rgba($color: #000000, $alpha: 0.5);
+        }
+        transform: translateY(-50%);
+    }
+    .slick-prev {
+        top: 50%;
+        left: 20px;
+        z-index: 10;
+    }
+    .slick-next {
+        top: 50%;
+        right: 40px;
+        z-index: 10;
+    }
+}
+.product__card {
+    padding: 30px;
+    background-color: #fff;
+    margin: 5px 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #00000029;
+    // width: calc(20% - 10px);
+    .card__img {
+        height: 200px;
+        a {
+            display: flex;
+            align-items: center;
+            height: 100%;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .card__info {
+        margin-top: 15px;
+        a.product__title {
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            font-weight: bold;
+            color: #000;
+            height: 60px;
+            overflow: hidden;
+        }
+        p.product__price {
+            margin: 0;
+            color: #e13d3d;
+            font-weight: bold;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+    &:hover .card__img {
+        transform: translateY(-15px);
+        transition: all 0.5s;
+    }
+}
+.product__like {
+    padding-top: 20px;
+}
+#title {
+    // display: flex;
+    position: relative;
+    width: 390px;
+    text-align: center;
+    background-color: #fff;
+    padding: 5px 0px 5px 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    p {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0;
+        font-size: 18px;
+    }
+
+    &::before {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 30px;
+        top: 0;
+        left: 40px;
+        background-color: #f12a43;
+        border-top: 37px solid #fff;
+        border-left: 40px solid #f12a43;
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 40px;
+        top: 0;
+        left: 0;
+        background-color: #f12a43;
+    }
+}
